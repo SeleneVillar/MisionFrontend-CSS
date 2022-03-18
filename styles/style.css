@@ -1,0 +1,407 @@
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    /* Navbar azul y blanco */
+    
+    .bg-blue-white {
+        background-color: #ffffff;
+        background-image: linear-gradient(90deg, transparent 50%, #e6f4fc 50%);
+    }
+    
+    .navbar {
+        padding: 22px;
+    }
+    
+    .nav-item {
+        padding-right: 46px;
+        color: #6d7b93;
+        font-weight: 600;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: #3858D6;
+        font-weight: bold;
+    }
+    /* Primer sección */
+    
+    .triangulo {
+        width: 0px;
+        height: 0px;
+        transform: translate(-57px, 0px);
+        border-right: 60px solid transparent;
+        border-left: 60px solid transparent;
+        border-top: 60px solid #f4f6fb;
+    }
+    
+    .bg-img {
+        background-color: #1090e4;
+    }
+    
+    .title {
+        color: #1f3e72;
+        font-weight: 800;
+        font-size: 54px;
+    }
+    
+    .text {
+        color: #6d7b93;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 15px;
+        text-align: justify;
+    }
+    
+    .triangulo2 {
+        width: 0px;
+        height: 0px;
+        border-right: 80px solid #f4f6fb;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        transform: translate(465px, -213px);
+    }
+    
+    .yellow-icons {
+        text-align: center;
+        height: 25px;
+        width: 25px;
+        border-radius: 4px;
+        color: #ffd012;
+        background-color: #fffae3;
+        filter: drop-shadow(0px 5px 3px #fff4c5);
+    }
+    
+    .shield-icon {
+        margin-right: 16px;
+    }
+    
+    .yellow-icons-text {
+        font-weight: 600;
+        color: #1f3e72;
+    }
+    
+    .clock-icon {
+        text-align: center;
+        padding-top: 2px;
+        margin-right: 10px;
+        height: 25px;
+        width: 25px;
+        border-radius: 4px;
+        color: #004eb4;
+        background-color: #d2e9ff;
+        filter: drop-shadow(0px 5px 3px #d2e9ff);
+    }
+    
+    .clock-icon-text {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 17px;
+        color: #1f3e72;
+        margin-left: 5px;
+    }
+    
+    .flotante {
+        padding: 8px;
+        position: absolute;
+        display: flex;
+        border-radius: 5px;
+        flex-direction: row;
+        justify-content: space-between;
+        background: #fafcfe;
+        box-shadow: 0px 5px 2px #e4edfa;
+    }
+    
+    .margin-float {
+        margin-left: 24px;
+    }
+    
+    .blue-icons {
+        text-align: center;
+        height: 25px;
+        width: 25px;
+        border-radius: 4px;
+        color: #004eb4;
+        background-color: #d2e9ff;
+        filter: drop-shadow(0px 5px 3px #d2e9ff);
+    }
+    
+    .text-float {
+        color: #6d7b93;
+        font-weight: 430;
+    }
+    
+    .content-float {
+        color: #1f3e72;
+        margin-left: 56px;
+        font-weight: 600;
+    }
+    
+    .btn-submit {
+        width: 100px;
+        font-weight: 500;
+        font-size: 14px;
+        background-color: #3757d5;
+    }
+    
+    .img-enfermera {
+        width: 50%;
+        height: 92%;
+        position: absolute;
+        right: 0px;
+        z-index: -1;
+        background-size: cover;
+    }
+    
+    .img-vaccines {
+        width: 100%;
+    }
+    /* Segunda sección */
+    
+    .triangulo3 {
+        width: 0px;
+        height: 0px;
+        border-right: 80px solid #f4f6fb;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        position: absolute;
+        top: 850px;
+        right: 0px;
+    }
+    
+    .subtitle {
+        color: #1f3e72;
+        font-weight: 800;
+        font-size: 34px;
+    }
+    
+    .subtext {
+        color: #6d7b93;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 26px;
+        text-align: justify;
+    }
+    
+    .card-icons {
+        text-align: center;
+        border-radius: 4px;
+        padding: 5px;
+        color: #2c4cca;
+        background-color: #ecf1ff;
+    }
+    
+    .title-card {
+        color: #1f3e72;
+        font-weight: 600;
+    }
+    
+    .card-content {
+        font-weight: 500;
+    }
+    /* Tercera sección */
+    
+    .triangulo4 {
+        width: 0px;
+        height: 0px;
+        border-left: 80px solid #f4f6fb;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        position: absolute;
+        left: 0px;
+    }
+    
+    .img-mujer {
+        width: 47%;
+        height: 91.6%;
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+        background-size: cover;
+    }
+    
+    .accordion-text {
+        color: #1f3e72;
+        font-weight: 600;
+    }
+    /* Cuarta sección */
+    
+    .triangulo5 {
+        width: 0px;
+        height: 0px;
+        border-right: 80px solid #f4f6fb;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .img-doctor {
+        width: 50%;
+        height: 95.2%;
+        position: absolute;
+        right: 0px;
+        z-index: -1;
+        background-size: cover;
+    }
+    
+    .img-doctor2 {
+        display: none;
+    }
+    
+    .card-icons-lg {
+        text-align: center;
+        border-radius: 4px;
+        padding: 10px;
+        color: #2c4cca;
+        background-color: #ecf1ff;
+    }
+    
+    .btn-contact {
+        background-color: #f1f5ff;
+        width: 100%;
+    }
+    
+    .btn-contact-select {
+        background-color: #3858d6;
+        width: 100%;
+        color: #ffffff;
+    }
+    /* Footer */
+    
+    .bg-footer {
+        background-color: #eef3ff;
+    }
+    
+    .title-footer {
+        color: #2b4bc9;
+        font-weight: 700;
+    }
+    
+    .subtitle-footer {
+        color: #1f3e72;
+        font-weight: 600;
+    }
+    
+    .text-footer {
+        color: #6d7b93;
+        font-weight: 500;
+    }
+    /* Responsive */
+    
+    @media (max-width: 1199px) {
+        .triangulo2 {
+            display: none;
+        }
+        .second-section-card {
+            width: auto!important;
+            height: 20rem!important;
+        }
+        .img-vaccines {
+            margin-top: 110px;
+        }
+        .img-mujer {
+            height: 100%;
+        }
+        .img-doctor {
+            height: 100%;
+        }
+        .fourth-section-card {
+            width: auto!important;
+            height: 13rem!important;
+        }
+    }
+    
+    @media (max-width: 991px) {
+        .second-section-card {
+            height: auto!important;
+        }
+        .img-mujer {
+            width: 100%;
+            height: 95%;
+            position: relative;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background-size: cover;
+        }
+        .third-section {
+            margin-top: 0px!important;
+        }
+        .img-doctor {
+            width: 100%;
+            height: 95%;
+            position: relative;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background-size: cover;
+            margin-top: 1rem!important;
+        }
+        .img-doctor1 {
+            display: none;
+        }
+        .img-doctor2 {
+            display: block;
+        }
+        .fourth-section-card {
+            height: auto!important;
+        }
+        .content-center {
+            justify-content: center!important;
+        }
+        .margin-icons {
+            margin-right: 20px;
+        }
+    }
+    
+    @media (max-width: 852px) {
+        .triangulo5 {
+            display: none;
+        }
+        .margin-footer {
+            margin-left: 10px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .img-enfermera {
+            width: 100%;
+            height: 95%;
+            position: relative;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background-size: cover;
+            margin-top: 1rem!important;
+        }
+        .flotante {
+            position: relative;
+            width: 100%;
+            flex-direction: column;
+        }
+        .btn-submit {
+            margin-left: 44px;
+        }
+        .img-vaccines {
+            margin-top: 40px;
+        }
+        .margin-footer {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-vaccination {
+            margin-top: 10px;
+        }
+    }
+    
+    @media (max-width: 668px) {
+        .triangulo,
+        .triangulo3,
+        .triangulo4 {
+            display: none;
+        }
+        .margin-footer-content {
+            margin-right: 1rem!important;
+            margin-left: 1rem!important;
+        }
+    }
